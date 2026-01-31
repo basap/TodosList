@@ -19,7 +19,7 @@ const TodoItem: React.FC<TodoProps> = ({ todo, onToggle }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 20,
+    fontSize: 19,
     paddingVertical: 8
   },
   done: {
