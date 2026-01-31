@@ -31,8 +31,8 @@ export default function App() {
 
   const addTodo = () => {
     if (!text.trim()) return;
-    setTodos(prev => [
-      ...prev,
+    setTodos(oldTodos => [
+      ...oldTodos,
       { id: Date.now().toString(), text, done: false },
     ]);
     setText("");
